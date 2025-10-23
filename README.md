@@ -28,25 +28,29 @@ The objective of this lab was to simulate an attacker’s interaction with the s
 
 ### **1️⃣ Run Cowrie on Docker**  
 Launched the Cowrie honeypot inside a Docker container to begin capturing attacker activity.  
-![Run Cowrie on Docker](./01_run_cowrie_docker.png)
+
+![Run Cowrie on Docker](./Cowrie%20on%20Docker%20running%20successfully.png)
 
 ---
 
 ### **2️⃣ Telnet to Cowrie**  
 Connected to the honeypot via Telnet to simulate unauthorized access and observe Cowrie’s logging behavior.  
-![Telnet to Cowrie](./02_telnet_to_cowrie.png)
+
+![Telnet to Cowrie](./Telnet%20session.png)
 
 ---
 
 ### **3️⃣ Analyze Logs**  
 Reviewed and analyzed captured logs to identify login attempts, IP addresses, commands executed, and timestamps.  
-![Analyze Logs](./03_analyze_logs.png)
+
+![Analyze Logs](./Log%20analysis.png)
 
 ---
 
 ### **4️⃣ Terminate Cowrie**  
 Safely stopped and removed the Cowrie container after completing the log investigation.  
-![Terminate Cowrie](./04_terminate_cowrie.png)
+
+![Terminate Cowrie](./Container%20termination.png)
 
 ---
 
@@ -74,13 +78,10 @@ This project was completed purely for **educational and defensive cybersecurity 
 
 ---
 
-## 📂 Repository Structure---
-
 ## 🏁 Summary  
 
 This hands-on lab enhanced my understanding of **incident response, log analysis, and honeypot monitoring** — essential skills for a future **SOC Analyst**.  
 
 ---
 
-✨ **Project Completed by:** *Beryl Amondi Opara*# Cowrie-honeypot-log-analysis
-Analyzing attacker behavior and SSH/Telnet brute force attempts using Cowrie Honeypot on Docker
+✨ **Project Completed by:** *Beryl Amondi Opara*
